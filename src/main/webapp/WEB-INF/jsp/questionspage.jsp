@@ -15,7 +15,7 @@
 
 <h1>Questions</h1>
 
-<c:url var="addUrl" value="/krams/questions/add" />
+<c:url var="addUrl" value="/proggeo/questions/add" />
 <table style="border: 1px solid; width: 500px; text-align:center">
   <thead style="background:#fcf">
   <tr>
@@ -29,8 +29,8 @@
   </thead>
   <tbody>
   <c:forEach items="${questions}" var="question">
-    <c:url var="editUrl" value="/krams/questions/edit?id=${question.id}" />
-    <c:url var="deleteUrl" value="/krams/questions/delete?id=${question.id}" />
+    <c:url var="editUrl" value="/proggeo/questions/edit?id=${question.id}" />
+    <c:url var="deleteUrl" value="/proggeo/questions/delete?id=${question.id}" />
     <tr>
       <td><c:out value="${question.question}" /></td>
       <td><c:out value="${question.answer}" /></td>

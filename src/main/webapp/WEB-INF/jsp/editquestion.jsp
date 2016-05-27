@@ -12,7 +12,7 @@
 
 <h1>Edit question</h1>
 
-<c:url var="saveUrl" value="/krams/questions/edit?id=${questionAttribute.id}" />
+<c:url var="saveUrl" value="/proggeo/questions/edit?id=${questionAttribute.id}" />
 <form:form modelAttribute="questionAttribute" method="POST" action="${saveUrl}">
 	<table>
 		<tr>

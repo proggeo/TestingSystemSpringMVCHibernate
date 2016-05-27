@@ -1,11 +1,10 @@
-package org.krams.tutorial.controller;
+package org.proggeo.testingsystem.controller;
 
 import org.apache.log4j.Logger;
-import org.hibernate.Query;
-import org.krams.tutorial.domain.Entry;
-import org.krams.tutorial.domain.TestQuestion;
-import org.krams.tutorial.service.EntryService;
-import org.krams.tutorial.service.QuestionService;
+import org.proggeo.testingsystem.domain.Entry;
+import org.proggeo.testingsystem.domain.TestQuestion;
+import org.proggeo.testingsystem.service.EntryService;
+import org.proggeo.testingsystem.service.QuestionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

@@ -12,7 +12,7 @@
 
 <h1>Create New Question</h1>
 
-<c:url var="saveUrl" value="/krams/questions/add" />
+<c:url var="saveUrl" value="/proggeo/questions/add" />
 <form:form modelAttribute="questionAttribute" method="POST" action="${saveUrl}">
 	<table>
 		<tr>

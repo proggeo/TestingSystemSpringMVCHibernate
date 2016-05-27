@@ -1,8 +1,8 @@
-package org.krams.tutorial.controller;
+package org.proggeo.testingsystem.controller;
 
 import org.apache.log4j.Logger;
-import org.krams.tutorial.domain.Person;
-import org.krams.tutorial.service.PersonService;
+import org.proggeo.testingsystem.domain.Person;
+import org.proggeo.testingsystem.service.PersonService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

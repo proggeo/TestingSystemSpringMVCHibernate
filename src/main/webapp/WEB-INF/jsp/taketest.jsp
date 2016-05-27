@@ -16,7 +16,7 @@
 <div id="questionContainer" class="noselect">
     <h1>Question</h1>
 
-    <c:url var="saveUrl" value="/krams/test/take"/>
+    <c:url var="saveUrl" value="/proggeo/test/take"/>
 
     <h3 class="noselect">${question.question}</h3>
 
@@ -37,9 +37,9 @@
         <input type="submit" value="Submit"/>
     </form:form>
 </div>
-<c:url var="mainUrl" value="/krams/questions"/>
+<c:url var="mainUrl" value="/proggeo/questions/show"/>
 <p>Return to <a href="${mainUrl}">Main List</a></p>
-<c:url var="statsUrl" value="/krams/test/stats?id=${entry.  questionId}"/>
+<c:url var="statsUrl" value="/proggeo/test/stats?id=${entry.  questionId}"/>
 <a href="${statsUrl}">Show stats for this question</a>
 
 </body>

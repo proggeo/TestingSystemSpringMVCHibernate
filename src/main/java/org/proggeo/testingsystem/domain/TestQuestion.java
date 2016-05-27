@@ -1,4 +1,4 @@
-package org.krams.tutorial.domain;
+package org.proggeo.testingsystem.domain;
 
 import java.io.Serializable;
 import javax.persistence.*;

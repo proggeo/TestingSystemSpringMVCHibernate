@@ -1,10 +1,10 @@
-package org.krams.tutorial.service;
+package org.proggeo.testingsystem.service;
 
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.krams.tutorial.domain.Person;
+import org.proggeo.testingsystem.domain.Person;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

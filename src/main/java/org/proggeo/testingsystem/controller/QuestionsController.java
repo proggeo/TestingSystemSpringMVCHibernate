@@ -1,10 +1,8 @@
-package org.krams.tutorial.controller;
+package org.proggeo.testingsystem.controller;
 
-import com.sun.javafx.sg.prism.NGShape;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.apache.log4j.Logger;
-import org.krams.tutorial.domain.TestQuestion;
-import org.krams.tutorial.service.QuestionService;
+import org.proggeo.testingsystem.domain.TestQuestion;
+import org.proggeo.testingsystem.service.QuestionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

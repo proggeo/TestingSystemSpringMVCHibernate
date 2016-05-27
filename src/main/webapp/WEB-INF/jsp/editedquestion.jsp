@@ -14,7 +14,7 @@
 
 <p>You have edited a question with id ${id} at <%= new java.util.Date() %></p>
 
-<c:url var="mainUrl" value="/krams/questions/show" />
+<c:url var="mainUrl" value="/proggeo/questions/show" />
 <p>Return to <a href="${mainUrl}">Main List</a></p>
 
 </body>

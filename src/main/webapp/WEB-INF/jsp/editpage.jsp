@@ -12,7 +12,7 @@
 
 <h1>Edit Person</h1>
 
-<c:url var="saveUrl" value="/krams/main/persons/edit?id=${personAttribute.id}" />
+<c:url var="saveUrl" value="/proggeo/main/persons/edit?id=${personAttribute.id}" />
 <form:form modelAttribute="personAttribute" method="POST" action="${saveUrl}">
 	<table>
 		<tr>
